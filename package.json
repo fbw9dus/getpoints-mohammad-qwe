@@ -1,0 +1,30 @@
+{
+  "name": "getpoints-mohammad-qwe",
+  "version": "1.0.0",
+  "description": "Unser erstes Express-Projekt, für das automatisch Punkte vergeben Werden.",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*",
+    "supertest": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbw9dus/getpoints-mohammad-qwe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbw9dus/getpoints-mohammad-qwe/issues"
+  },
+  "homepage": "https://github.com/fbw9dus/getpoints-mohammad-qwe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json": "^9.0.6"
+  }
+}
