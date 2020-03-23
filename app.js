@@ -1,5 +1,4 @@
 const express = require('express')
-var json = require('json');
 const app = express()
  
 app.get('/', function (req, res) {
@@ -9,6 +8,8 @@ app.get('/', function (req, res) {
  
 app.get('/api',function(req,res){
     const mytest = [{user: 'fake', password: 'fake'}]
-    res.status(200).json(mytest)
+    res.json(mytest)
 })
 app.listen(3000)
+
+module.exports = app
