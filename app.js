@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 })
  
 
-app.get('/test',function(req,res){
+app.get('/api',function(req,res){
     const mytest = [{user: 'fake', password: 'fake'}]
 
     res.status(200).json(mytest)
