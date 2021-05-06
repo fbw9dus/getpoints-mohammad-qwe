@@ -25,6 +25,6 @@
   "homepage": "https://github.com/fbw9dus/getpoints-mohammad-qwe#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "json": "^9.0.6"
+    "json": "^10.0.0"
   }
 }
